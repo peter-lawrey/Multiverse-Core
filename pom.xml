@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.onarandombox.multiversecore</groupId>
     <artifactId>Multiverse-Core</artifactId>
-    <version>2.5</version>
+    <version>2.5-1.7.9</version>
     <name>Multiverse-Core</name>
     <description>World Management Plugin</description>
     <properties>
@@ -258,7 +258,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.7.2-R0.2</version>
+            <version>1.7.9-R0.3a-SNAPSHOT</version>
             <!-- If you want the lates, use this -->
             <!-- <version>LATEST</version> -->
             <type>jar</type>
