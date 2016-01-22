@@ -52,8 +52,8 @@ public class WhoCommand extends MultiverseCommand {
             showAll = false;
         }
 
-        final Player[] onlinePlayers = plugin.getServer().getOnlinePlayers();
-        final Collection<Player> visiblePlayers = new HashSet<Player>(onlinePlayers.length);
+        final Collection<? extends Player> onlinePlayers = plugin.getServer().getOnlinePlayers();
+        final Collection<Player> visiblePlayers = new HashSet<Player>(onlinePlayers.size());
         for (final Player player : onlinePlayers) {
             if (p == null || p.canSee(player)) {
                 visiblePlayers.add(player);
